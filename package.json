@@ -25,7 +25,7 @@
     "babel-register": "^6.26.0",
     "babel-runtime": "^6.26.0",
     "dotenv": "4.x",
-    "dtslint": "^0.9.1",
+    "dtslint": "^3.6.11",
     "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.17.2",
