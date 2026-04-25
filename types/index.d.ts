@@ -1499,7 +1499,7 @@ declare module 'cloudinary' {
 
                 function user(userId: string, options?: ProvisioningApiOptions, callback?: ResponseCallback): Promise<any>;
 
-                function users(pending: boolean, userIds?: string[], prefix?: string, subAccountId?: string, options?: ProvisioningApiOptions, callback?: ResponseCallback): Promise<any>;
+                function users(pending: boolean, userIds?: string[], prefix?: string, subAccountId?: string, options?: ProvisioningApiOptions | { lastLogin?: boolean; fromDate?: Date | string; toDate?: Date | string }, callback?: ResponseCallback): Promise<any>;
 
                 function create_user(name: string, email: string, role: string, subAccountIds?: string[], options?: ProvisioningApiOptions, callback?: ResponseCallback): Promise<any>;
 
